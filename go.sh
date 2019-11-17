@@ -7,4 +7,6 @@ export GO111MODULE=on
 mkdir -p "/workspace/src/example"
 mkdir "/workspace/pkg"
 cd /workspace/src/example || exit
-curl -O https://storage.googleapis.com/golang/go1.13.linux-amd64.tar.gz
+curl -O https://github.com/lianggx6/go_example/blob/master/main.go
+curl -O https://github.com/lianggx6/go_example/blob/master/go.mod
+go run main.go

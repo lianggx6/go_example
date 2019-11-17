@@ -7,6 +7,6 @@ export GO111MODULE=on
 mkdir -p "/workspace/src/example"
 mkdir "/workspace/pkg"
 cd /workspace/src/example || exit
-curl -O https://github.com/lianggx6/go_example/blob/master/main.go
-curl -O https://github.com/lianggx6/go_example/blob/master/go.mod
+curl -O https://raw.githubusercontent.com/lianggx6/go_example/master/main.go
+curl -O https://raw.githubusercontent.com/lianggx6/go_example/master/go.mod
 go run main.go
